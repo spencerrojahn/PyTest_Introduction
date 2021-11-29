@@ -1,0 +1,13 @@
+pytest -v 
+
+pytest test_compare.py -v
+
+pytest -k great -v    --> -k <substring> (for test functions that contain specific substring)
+
+pytest -m others -v   --> -m <marker> (for test functions that are marked by marker)
+
+pytest -k divisible -v
+
+pytest -k multiplication -v
+
+pytest test_compare2.py -v
